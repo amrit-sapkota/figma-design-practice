@@ -45,7 +45,6 @@ const Navbar = () => {
               alt="Company logo"
               className="w-10 inline-block items-center"
             />
-            <span className="text-[#263238] ">Nexcent</span>
           </a>
           {/* nav items for large devices */}
           <ul className="md:flex space-x-12 hidden">
@@ -56,7 +55,7 @@ const Navbar = () => {
                 smooth={true}
                 offset={-100}
                 key={path}
-                className="block text-textGray hover:text-brandPrimary first:font-medium"
+                className="block text-textGray hover:text-brandPrimary cursor-pointer first:font-medium"
               >
                 {link}
               </ScrollLink>
@@ -70,7 +69,7 @@ const Navbar = () => {
             >
               Login
             </a>
-            <button className="bg-green-600   text-white  py-2 px-2 transition-all duration-300 rounded hover:bg-green-800">
+            <button className="bg-brandPrimary   text-white  py-2 px-2 transition-all duration-300 rounded hover:bg-green-800">
               Register Now
             </button>
           </div>
@@ -114,7 +113,7 @@ const Navbar = () => {
             >
               Login
             </a>
-            <button className="bg-green-600   text-white  py-2 px-2 transition-all duration-300 rounded hover:bg-green-800">
+            <button className="bg-brandPrimary  text-white  py-2 px-2 transition-all duration-300 rounded hover:bg-green-800">
               Register Now
             </button>
           </div>

@@ -1,90 +1,92 @@
 import React from "react";
 import productImage from "../assets/pana.svg";
 import { FaArrowCircleRight } from "react-icons/fa";
+
 const Products = () => {
   return (
-    <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-8">
+    <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-8" id="product">
       <div className="md:w-10/12 mx-auto flex flex-col md:flex-row justify-between gap-12 items-center">
         <div>
-          <img src={productImage} alt="" />
+          <img src={productImage} alt="Product Image" />
         </div>
         <div className="md:w-4/5 mx-auto">
           <h2 className="text-4xl text-neutralGray font-semibold mb-4 md:w-4/5">
-            How to design your site footer like we did in our website?
+            Elevate Your Website's Design with Our Footer Design Tips
           </h2>
           <p className="md:w-3/4 text-sm text-neutralGray mb-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-            veritatis voluptatem architecto iusto voluptates id quas assumenda
-            officia repellat harum magni ipsam accusamus, unde vel rerum rem
-            recusandae impedit dolores!
+            Discover the secrets to creating an engaging and effective website
+            footer. Learn how to enhance user experience, drive conversions, and
+            showcase essential information. Elevate your website's design with
+            our expert tips and best practices.
           </p>
           <button className="btn-primary">Learn more</button>
         </div>
       </div>
 
-      {/* company starts */}
+      {/* Company Stats */}
       <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto bg-neutralSilver py-16">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="md:w-1/3 mb-5">
-            <img src="/src/assets/image9.svg" alt="" />
+            <img
+              src="/src/assets/customer2.jpeg"
+              width={200}
+              height={150}
+              alt="Customer Testimonial"
+              className="rounded-lg shadow-md object-cover"
+            />
           </div>
 
-          {/* statistics */}
+          {/* Customer Testimonial and Statistics */}
           <div className="md:w-2/3 mx-auto mt-12">
             <div>
-              <p
-                className="text-black md:w-4/5
-               mb-3 text-sm leading-5"
-              >
-                Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
-                lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin
-                eu enim metus. Vivamus sed libero ornare, tristique quam in,
-                gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi
-                laoreet elit at ligula molestie, nec molestie mi blandit.
-                Suspendisse cursus tellus sed augue ultrices, quis tristique
-                nulla sodales. Suspendisse eget lorem eu turpis vestibulum
-                pretium. Suspendisse potenti. Quisque malesuada enim sapien,
-                vitae placerat ante feugiat eget. Quisque vulputate odio neque,
-                eget efficitur libero condimentum id. Curabitur id nibh id sem
-                dignissim finibus ac sit amet magna.
+              <p className="text-black md:w-4/5 mb-3 text-sm leading-5">
+                "My name is Amrit Sapkota, and I am delighted to share my
+                positive experiences working with DevAmrit Coding Association.
+                Having recently joined their team, I have been thoroughly
+                impressed by the professionalism and dedication exhibited by
+                every member of the organization. DevAmrit Coding Association
+                boasts a stellar team that consistently delivers high-quality
+                work, making my time with them exceptionally rewarding. The
+                commitment to excellence within the organization is evident in
+                every project undertaken."
               </p>
               <h1 className="font-semibold text-brandPrimary mb-2">
                 Amrit Sapkota
               </h1>
-              <p className="text-neutralGray text-sm ">
-                British Dragon Boat Racing Association
+              <p className="text-neutralGray text-sm">
+                DevAmrit Coding Association
               </p>
             </div>
             <div>
-              <div className="my-12  flex flex-wrap justify-between items-center gap-8">
+              <div className="my-12 flex flex-wrap justify-between items-center gap-8">
                 <img
                   src="/src/assets/logos/logo1.png"
-                  alt=""
+                  alt="Client Logo 1"
                   className="cursor-pointer"
                 />
                 <img
                   src="/src/assets/logos/logo2.png"
-                  alt=""
+                  alt="Client Logo 2"
                   className="cursor-pointer"
                 />
                 <img
                   src="/src/assets/logos/logo3.png"
-                  alt=""
+                  alt="Client Logo 3"
                   className="cursor-pointer"
                 />
                 <img
                   src="/src/assets/logos/logo4.png"
-                  alt=""
+                  alt="Client Logo 4"
                   className="cursor-pointer"
                 />
                 <img
                   src="/src/assets/logos/logo5.png"
-                  alt=""
+                  alt="Client Logo 5"
                   className="cursor-pointer"
                 />
                 <img
                   src="/src/assets/logos/logo6.png"
-                  alt=""
+                  alt="Client Logo 6"
                   className="cursor-pointer"
                 />
                 <h2 className="text-brandPrimary flex gap-2 items-center hover:text-neutral-700 cursor-pointer">

@@ -8,7 +8,7 @@ import About from "./components/About";
 import Products from "./components/Products";
 import Blog from "./components/Blog";
 import Newsletter from "./components/Newsletter";
-import Footer from "./components/Footer";
+import Footerr from "./components/Footer";
 
 const App = () => {
   return (
@@ -20,7 +20,7 @@ const App = () => {
       <Products />
       <Blog />
       <Newsletter />
-      <Footer />
+      <Footerr />
     </>
   );
 };
