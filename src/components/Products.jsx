@@ -25,12 +25,12 @@ const Products = () => {
       {/* company starts */}
       <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto bg-neutralSilver py-16">
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
-          <div className="md:w-1/3">
+          <div className="md:w-1/3 mb-5">
             <img src="/src/assets/image9.svg" alt="" />
           </div>
 
           {/* statistics */}
-          <div className="md:w-2/3 mx-auto">
+          <div className="md:w-2/3 mx-auto mt-12">
             <div>
               <p
                 className="text-black md:w-4/5
@@ -87,7 +87,7 @@ const Products = () => {
                   alt=""
                   className="cursor-pointer"
                 />
-                <h2 className="text-brandPrimary flex gap-2 items-center">
+                <h2 className="text-brandPrimary flex gap-2 items-center hover:text-neutral-700 cursor-pointer">
                   Meet all Customers
                   <span className="cursor-pointer">
                     <FaArrowCircleRight />
