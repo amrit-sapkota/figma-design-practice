@@ -1,6 +1,6 @@
 import { Carousel } from "flowbite-react";
 import React from "react";
-import illustration from "../assets/illustration.png";
+import illu from "../assets/illu.png";
 
 const Home = () => {
   return (
@@ -10,7 +10,7 @@ const Home = () => {
           {/* Slide 1 */}
           <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
             <div>
-              <img src={illustration} alt="first carousel image" />
+              <img src={illu} alt="first carousel image" />
             </div>
             <div className="md:w-1/2">
               <h1 className="text-5xl font-semibold mb-4 text-neutralGray md:w-3/4 leading-snug">
@@ -32,7 +32,7 @@ const Home = () => {
           {/* Slide 2 */}
           <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
             <div>
-              <img src={illustration} alt="second carousel image" />
+              <img src={illu} alt="second carousel image" />
             </div>
             <div className="md:w-1/2">
               <h1 className="text-5xl font-semibold mb-4 text-neutralGray md:w-3/4 leading-snug">
@@ -54,7 +54,7 @@ const Home = () => {
           {/* Slide 3 */}
           <div className="my-28 md:my-8 py-12 flex flex-col md:flex-row-reverse items-center justify-between gap-12">
             <div>
-              <img src={illustration} alt="third carousel image" />
+              <img src={illu} alt="third carousel image" />
             </div>
             <div className="md:w-1/2">
               <h1 className="text-5xl font-semibold mb-4 text-neutralGray md:w-3/4 leading-snug">
