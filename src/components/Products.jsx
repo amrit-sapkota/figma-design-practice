@@ -7,6 +7,7 @@ import {
   FaCodeCompare,
   FaDiagramPredecessor,
 } from "react-icons/fa6";
+import myimage from "/src/assets/customer2.jpeg";
 const Products = () => {
   return (
     <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-8" id="product">
@@ -33,7 +34,7 @@ const Products = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="md:w-1/3 mb-5">
             <img
-              src="/src/assets/customer2.jpeg"
+              src={myimage}
               width={200}
               height={150}
               alt="Customer Testimonial"
