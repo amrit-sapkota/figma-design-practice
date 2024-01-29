@@ -1,7 +1,12 @@
 import React from "react";
 import productImage from "../assets/pana.svg";
-import { FaArrowCircleRight } from "react-icons/fa";
-
+import { FaArrowCircleRight, FaBookOpen, FaBug } from "react-icons/fa";
+import {
+  FaBahtSign,
+  FaCannabis,
+  FaCodeCompare,
+  FaDiagramPredecessor,
+} from "react-icons/fa6";
 const Products = () => {
   return (
     <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-8" id="product">
@@ -59,36 +64,12 @@ const Products = () => {
             </div>
             <div>
               <div className="my-12 flex flex-wrap justify-between items-center gap-8">
-                <img
-                  src="/src/assets/logos/logo1.png"
-                  alt="Client Logo 1"
-                  className="cursor-pointer"
-                />
-                <img
-                  src="/src/assets/logos/logo2.png"
-                  alt="Client Logo 2"
-                  className="cursor-pointer"
-                />
-                <img
-                  src="/src/assets/logos/logo3.png"
-                  alt="Client Logo 3"
-                  className="cursor-pointer"
-                />
-                <img
-                  src="/src/assets/logos/logo4.png"
-                  alt="Client Logo 4"
-                  className="cursor-pointer"
-                />
-                <img
-                  src="/src/assets/logos/logo5.png"
-                  alt="Client Logo 5"
-                  className="cursor-pointer"
-                />
-                <img
-                  src="/src/assets/logos/logo6.png"
-                  alt="Client Logo 6"
-                  className="cursor-pointer"
-                />
+                <FaBahtSign className="text-3xl" />
+                <FaBookOpen className="text-3xl" />
+                <FaBug className="text-3xl" />
+                <FaCannabis className="text-3xl" />
+                <FaCodeCompare className="text-3xl" />
+                <FaDiagramPredecessor className="text-3xl" />
                 <h2 className="text-brandPrimary flex gap-2 items-center hover:text-neutral-700 cursor-pointer">
                   Meet all Customers
                   <span className="cursor-pointer">

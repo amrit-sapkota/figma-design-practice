@@ -1,6 +1,9 @@
 import React from "react";
 import aboutImage from "../assets/aboutus.svg";
-
+import { PiMaskHappyLight } from "react-icons/pi";
+import { MdOutlineBookmarks } from "react-icons/md";
+import { SiOnlyfans } from "react-icons/si";
+import { VscSymbolNamespace } from "react-icons/vsc";
 const About = () => {
   return (
     <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-8" id="about">
@@ -43,10 +46,7 @@ const About = () => {
           <div className="md:w-1/2 mx-auto flex sm:flex-row flex-col sm:items-center justify-around gap-12">
             <div className="space-y-8">
               <div className="flex items-center gap-4">
-                <img
-                  src="/src/assets/logos/stat1.svg"
-                  alt="Happy Customers Icon"
-                />
+                <PiMaskHappyLight className="text-4xl" />
                 <div>
                   <h4 className="text-2xl text-neutralGray font-semibold">
                     100+
@@ -55,10 +55,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <img
-                  src="/src/assets/logos/stat2.svg"
-                  alt="Successful Events Icon"
-                />
+                <MdOutlineBookmarks className="text-4xl" />
                 <div>
                   <h4 className="text-2xl text-neutralGray font-semibold">
                     200+
@@ -69,10 +66,7 @@ const About = () => {
             </div>
             <div className="space-y-8">
               <div className="flex items-center gap-4">
-                <img
-                  src="/src/assets/logos/stat3.svg"
-                  alt="Events Booking Icon"
-                />
+                <VscSymbolNamespace className="text-4xl" />
                 <div>
                   <h4 className="text-2xl text-neutralGray font-semibold">
                     500+
@@ -81,10 +75,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-center gap-4">
-                <img
-                  src="/src/assets/logos/stat4.svg"
-                  alt="Awesome Members Icon"
-                />
+                <SiOnlyfans className="text-4xl" />
                 <div>
                   <h4 className="text-2xl text-neutralGray font-semibold">
                     100k+

@@ -1,6 +1,14 @@
 import React from "react";
 import { services } from "../constants";
-
+import {
+  FaBahtSign,
+  FaCannabis,
+  FaCodeCompare,
+  FaDiagramPredecessor,
+  FaDragon,
+} from "react-icons/fa6";
+import { FaBookOpen } from "react-icons/fa6";
+import { FaBug } from "react-icons/fa6";
 const Services = () => {
   return (
     <div className="md:px-14 px-4 py-16 max-w-screen-2xl mx-auto" id="service">
@@ -12,14 +20,14 @@ const Services = () => {
           We are proud to have collaborated with Fortune 500+ clients.
         </p>
         {/* Company Logos */}
-        <div className="my-12 p-5 flex flex-wrap justify-between items-center gap-8">
-          <img src="/src/assets/logos/logo1.png" alt="Client Logo 1" />
-          <img src="/src/assets/logos/logo2.png" alt="Client Logo 2" />
-          <img src="/src/assets/logos/logo3.png" alt="Client Logo 3" />
-          <img src="/src/assets/logos/logo4.png" alt="Client Logo 4" />
-          <img src="/src/assets/logos/logo5.png" alt="Client Logo 5" />
-          <img src="/src/assets/logos/logo6.png" alt="Client Logo 6" />
-          <img src="/src/assets/logos/logo7.png" alt="Client Logo 7" />
+        <div className="my-12 p-5 flex flex-wrap justify-between items-center gap-8 text-4xl">
+          <FaBahtSign />
+          <FaBookOpen />
+          <FaBug />
+          <FaCannabis />
+          <FaCodeCompare />
+          <FaDiagramPredecessor />
+          <FaDragon />
         </div>
       </div>
       {/* Services Card */}
