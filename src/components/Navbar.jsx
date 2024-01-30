@@ -113,7 +113,7 @@ const Navbar = () => {
             >
               Login
             </a>
-            <button className="bg-brandPrimary  text-white  py-2 px-2 transition-all duration-300 rounded hover:bg-green-800">
+            <button className="bg-green-400  text-white  py-2 px-2 transition-all duration-300 rounded hover:bg-green-800">
               Register Now
             </button>
           </div>
